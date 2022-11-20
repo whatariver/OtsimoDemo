@@ -59,7 +59,7 @@ public void OnBeginDrag(PointerEventData eventData)
             placeholder.transform.SetParent(panel.transform);
         }
 
-        Debug.Log(eventData.position);
+
 
     }
     public void OnEndDrag(PointerEventData eventData)
